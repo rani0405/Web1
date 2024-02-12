@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.box1{
+    width: 30%;
+    height: 110px;
+
+}
+.box1 img{
+    max-height: 100px;
+    max-width: 400px;
+    padding-top: 8px;
+    padding-right: 144px;
+}
+.box2{
+    width: 80%;
+    height: 110px;
+}
+.box2 ol{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content:space-around ;
+    padding: 46px 0px 32px 344px;
+}
+.box2 ol li{
+     font-size: larger; 
+     text-decoration: none;
+     color: black;
+}
+.box2 ol li:hover{
+   color: #c2c2c2;
+}
+.box3{
+    background-image: url(https://planner5d.com/blog/content/images/size/w1000/2023/02/staging-for-profit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    min-height: 100vh; 
+    width: 100%;
+    background-attachment:fixed ;
+    background-position: center;
+    margin-bottom: 80px;
+ }
+ 
+.box4 {
+   
+    padding: 139px 0px 21px 121px;
+    /* letter-spacing: 0.179487em;
+     font-size: 46px; */
+} 
+.box4 h2{
+    font-family: futura-pt;
+    font-size: 2.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    background-color: white;
+    width: 551px;
+}
+
+.box5{
+   margin-bottom: 35px;
+}
+.box6 h2{
+    padding: 0px 0px 19px 285px;
+    font-size: 30px;
+    
+}
+.box6 p{
+    padding: 0px 0px 0px 285px;
+    font-size: 17px;
+}
+.Box29{
+    height: 136px;
+    width: 100%; 
+    display:flex;
+    background-color: black;
+    color: white;
+    padding: 77px 0px 0px 0px;
+}
+.Box30{
+    height: 100px;
+    width:25%;
+}
+.Box30 img{
+          height: 40px;
+          width:40px;
+}
+.Box31{
+    height: 100px;
+    width:25%;
+}
+.Box32{
+    height: 100px;
+    width:25%;
+}
+.Box33{
+    height: 100px;
+    width:25%;
+}
+.scrollTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAAZlBMVEUAAAD////y8vLu7u7X19ezs7Otra329vYzMzPq6uphYWH6+vouLi7AwMDm5ubLy8s6Ojp2dnYLCwsUFBR9fX0fHx9DQ0NwcHCVlZWmpqZLS0udnZ1cXFzR0dEmJiZqamqJiYlTU1Mc0jrmAAAEe0lEQVRogc2baYOiMAyGW6DcqIiK1+jO//+TC2KRo9g0PZj3467M06ZpeiWEIuQFBTuX6W9+3JN9lV/Tw5kVgYf5U0Tx91HA6vhIRDrGJQsim3y/qE9C9EenuvDt8DP2lLC5nmFmnL+tgfBO9dYk3wtjJXqrOAT5I4Af3dTprxbcAC2Q8jNE3/sWXKSOIOMXeHqrncwPvvM3v1r0VvcEz7/stfGEVCGSn9wN0Fvdv0SkZf7WEL3RftkLFvn/zOEbnRX5nr7jjXVfmIlifvIwjG9igdgJhPxAvMDq6RFA+QY9b6j9D4xf2ME3DSggfEu9fzVgboEZP7CHbxqwkfETG6730XE6CyZ8z/zEGyvOvvJNh5250m/8f9bx01A84lt0/YF+lvgbJ3hS+WJ+Zn/wO6Vi/s0RnpBQxHdk/VZVIuBf3fEHI9Dzra06Qm2n/Cx3yj9N+ReneELYmO+57X5zMIpGfHdzjysc8n3X3e8NQFYZ/VZswHff/cYAH77buc+17fnlKvyy56+CJ4Tz2Up89uZD7/VM69nx/ZXwhPgvvo735/VO4+vixVe72Ryp2lBf44KsbvmR7Er5i9qdpFehPz9FDR9/4Hsfpjy8BYKGj559OT9MJmgLsoaPDX6Pz1k2wTrhoeFjvx2eIjzkqXlHSYT7tBofpJH7p0dEcO6X8x08b4aP84GAoKJP73phddNywoJg3L8/v7QfX7gFMEPAyBnxFTd6Zzu+lcY44Y0clL95+IPet+IW8NSn0oGkqp/E/dj3/4T3gZSoHjsfyaT3rXofULXAL1G98BqPPRfWB3Kitnodp2PPhfSBI1F64om58cPZf3EfUAtEar3P5643b4CiEyr0f79k/E78VkdlLdgrWKASu55WAyoC/m3ufzF+p94JwUOQg+e/IOzMpewDV2j8O4rCzlx9IALuCVNo/JeNPZdiIDrA1r/ZkrMstUB0A63/oLHv/6SKDzDI/qff6cL2Kn0DABYoIPs/6Nhz9XFA7gMBkf6ognn+UBdoA44eobKZslMYey4+BLKbhWb/Lz/+MmU8b8BWtriUoPNfoWT8Tu0QyF2Lwc6/TLH3XQN+5D8KNM//mnqd/3XuPzRVa9//6Kn4E/dfqw3A+/5v9fvPbCV+Rv/I/bebd++pPvf/6DsoHQ3eP1bxwOH7j8YVJlaj968VHsDee5Q3P3JtgHj8/olYYPU0ef+lmdspMHv/Xvv9n1JT2aYQCfIfaGIi2RYmYf6HwzkozH9xNwIL+T80cYNfyn9ytQ6OkpH/VP6bi/y/O/3Gj2xnQuTRV77t/M+HJP/Tcv5rJc1/XT3/d/X8Z2sWqID537by32djv8iniflpGIuLkRbqHyLTgShVqn+ga9d/0NXrXyjdmNoPpKj6H7p2/RM1Uv/11Kj/otr1bye9+rdG2QUfC3aCgKvKbw7HyPrHXQgoxoXVfzL101nMQKXAlupfS6P1ry9lDNqEmsn/mjqfguqfr6Wt+udOy/Xf+8euZAG88hnHf6mrf7+fqooM6t9VS89f+g/bMy8Y5EJ8HgAAAABJRU5ErkJggg==);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.scrollTop.active{
+    visibility: visible;
+    opacity: 1;
+}
+.box21{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1600953873973-FLCPS58FLIQAXHH9URG9/39+Hamilton+St+-Living-Dining.JPG?format=2500w);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    width: 100%;
+    background-attachment:fixed ;
+    background-position: center;
+    margin-bottom: 80px;
+}
+.box22{
+    padding: 148px 0px 0px 191px;
+    
+}
+.box22 h1{
+    
+        font-family: futura-pt;
+        font-size: 2.8em;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-style: normal;
+        background-color: white;
+        width: 227px;
+    }
